@@ -35,7 +35,8 @@
 | user   | references | null: false, foreign_key: true |
 | room   | references | null: false, foreign_key: true |
 
-###
+### Association
+
 - belongs_to :user
 - belongs_to :room
 
@@ -46,6 +47,8 @@
 | content | string     |                                |
 | user    | references | null: false, foreign_key: true |
 | room    | references | null: false, foreign_key: true |
+
+### Association
 
 - belongs_to :user
 - belongs_to :room
